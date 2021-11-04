@@ -179,7 +179,7 @@ try:
     b_item_relult_division = b_item_t / b_item_f
 except ZeroDivisionError:
     #b_item_relult_division = b_item_f
-    print('57.', 'Ошибка исключена из кода.')
+    print('57. Ошибка исключена из кода.')
 else:
     print('57.', b_item_relult_division, 'Ошибки нет.')
 
