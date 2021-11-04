@@ -178,8 +178,8 @@ print('55. b_item_relult_multi :', b_item_relult_multi)
 try:
     b_item_relult_division = b_item_t / b_item_f
 except ZeroDivisionError:
-    b_item_relult_division = b_item_f
-    print('57.', b_item_relult_division, 'Ошибка исключена из кода.')
+    #b_item_relult_division = b_item_f
+    print('57.', 'Ошибка исключена из кода.')
 else:
     print('57.', b_item_relult_division, 'Ошибки нет.')
 
