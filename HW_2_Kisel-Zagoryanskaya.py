@@ -179,10 +179,10 @@ try:
     b_item_relult_division = b_item_t / b_item_f
 except ArithmeticError:
     b_item_relult_division = b_item_f
-    print('57. ', b_item_relult_division, 'Ошибка исключена из кода.')
+    print('57.', b_item_relult_division, 'Ошибка исключена из кода.')
 else:
     b_item_relult_division = b_item_t
-    print('57. ', b_item_relult_division, 'Ошибки нет.')
+    print('57.', b_item_relult_division, 'Ошибки нет.')
 
 #  58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
 b_item_1_int = int(b_item_t)
