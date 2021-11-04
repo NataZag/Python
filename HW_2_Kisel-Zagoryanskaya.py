@@ -1,5 +1,4 @@
 import math
-from math import floor, ceil
 # Arithmetic
 
 #  1. Создать переменную item_1 типа integer.
@@ -71,13 +70,13 @@ result_division = item_1 / item_2
 print('22. result_division :', result_division)
 
 #  23. Создать переменную result_m_floor и result_division округлить до ближайшего целого меньшего чем result_division.
-result_m_floor = floor(result_division)
+result_m_floor = math.floor(result_division)
 
 #  24. Вывести result_m_floor в консоль.
 print ('24. result_m_floor :', result_m_floor)
 
 #  25. Создать переменную result_m_ceil и result_division округлить до ближайшего целого большего чем result_division.
-result_m_ceil = ceil(result_division)
+result_m_ceil = math.ceil(result_division)
 
 #  26. Вывести result_m_ceil в консоль.
 print('26. result_m_ceil :', result_m_ceil)
