@@ -110,18 +110,17 @@ if currency_convertor:
  target_currency = eur_item
  target_currency_amount = 50
  currency_result = 0
-  if target_currency = 'eur':
-   currency_result = target_currency_amount * usd_eur_rate
-  print(target_currency_amount, eur_item, '=', currency_result, usd_item)
-   elif target_currency = 'uah':
-    currency_result = target_currency_amount * usd_uah_rate
-   print(target_currency_amount, uah_item, '=', currency_result, uah_item)
+if target_currency == 'eur':
+ currency_result = target_currency_amount * usd_eur_rate
+print(target_currency_amount, eur_item, '=', currency_result, usd_item)
+elif target_currency == 'uah':
+ currency_result = target_currency_amount * usd_uah_rate
+print(target_currency_amount, uah_item, '=', currency_result, uah_item)
+else:
+print('Unknow currency')
 
- else:
- print('Unknow currency')
 
-
- print('Переменная currency_convertor = ', item_3)
+print('Переменная currency_convertor = ', item_3)
 
  # 31. Внутри if currency_convertor сделать следующие If условия :
 
