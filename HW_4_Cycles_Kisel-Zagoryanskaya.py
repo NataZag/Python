@@ -73,7 +73,16 @@ run = True
 # 11.3 Сделать if с условием, если item равен  10, то вывести в консоль (‘Item =’, item).
 # 11.4 Сделать if с условием, если item меньше 4, то вывести в консоль (‘Item <’, item).
 # 11.5 Сделать if с условием, если item больше или равно 27, то вывести в консоль (‘Item >=’, item).
-
+for item in range(0, 30):
+	print('Step =', item)
+	if item == 5:
+		print('Item =', item)
+	if item == 10:
+		print('Item =', item)
+	if item < 4:
+		print('Item <', item)
+	if item >= 27:
+		print('Item >=', item)
 
 # 12.Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до range_count +1
 # Тело цикла:
