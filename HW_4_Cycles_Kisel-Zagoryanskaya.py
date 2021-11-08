@@ -112,5 +112,10 @@ run = True
 # 13.2 Сделать if с условием, если item больше  7 и item меньше 12.
 # 	- В теле if вывести (‘If_item =’, item)
 # 	- В теле if поставить continue
-#
 # 13.3 Выйти з if. Вывести в консоль (‘End_iteration =’, item)
+for item in range (0, 20):
+	print('Step =', item)
+	if item > 7 and item < 12:
+		print('If_item =', item)
+		continue
+print('End_iteration =', item)
