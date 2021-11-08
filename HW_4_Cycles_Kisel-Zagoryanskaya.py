@@ -1,31 +1,49 @@
 # Цилы While
 # 1.Создать переменную count со значением 0
+count = 0
 
 # 2.Создать переменную range_count со значением 10
+range_count = 10
 
 # 3.Создать переменную for_count со значением 0
+for_count = 0
 
 # 4.Создать переменную run  со значением True
+run = True
 
 # 5.Сделать цикл while который будет работать пока run
 # Тело цикла:
 # 	5.1 Выводить в консоль “Hello Cycle”
+# while run:
+# 	print('Hello Cycle')
 
 # 6.Сделать цикл while который будет работать пока run
 # Тело цикла:
 # 	6.1 Выводить в консоль (“Step =”, count)
 # 	6.2 Переменной count прибавлять 1 с присвоением.
+# count = 0
+# while run:
+# 	print('Step =', count, 'Hello Cycle')
+# 	count += 1
 
 # 7.Сделать цикл while который будет работать пока count < range_count
 # Тело цикла:
 # 	7.1 Выводить в консоль (“Step =”, count)
 # 	7.2 Переменной count прибавлять 1 с присвоением.
+# while count < range_count:
+# 	print('Step =', count, 'Hello Cycle')
+# 	count += 1
 
 # 8.Сделать цикл while который будет работать пока count < range_count
 # Тело цикла:
 # 	8.1 Выводить в консоль (“Step =”, count)
 # 	8.2 Переменной count прибавлять 1 с присвоением.
 # 	8.3 Сделать if с условием, если count равен 3 то выводить в консоль (“Step =”, count, ‘If body’)
+while count < range_count:
+	print('Step =', count, 'Hello Cycle')
+	count += 1
+	if count == 3:
+		print('Step =', count, 'If body')
 
 # 9.Сделать цикл while который будет работать пока run
 # Тело цикла:
