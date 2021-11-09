@@ -108,7 +108,7 @@ currency_convertor = item_2
 try:
     if currency_convertor:
         currency_usd = usd_item
-        target_currency = by_item
+        target_currency = byn_item
         target_currency_amount = 50
         currency_result = 0
     if target_currency == 'eur':
@@ -126,9 +126,11 @@ try:
     elif target_currency == 'byn':
         currency_result = target_currency_amount / usd_byn_rate
         print(target_currency_amount, byn_item, '=', currency_result, usd_item)
+    else:
+        print('Переменная currency_convertor = ', item_3)
 except NameError:
     print('Unknow currency')
-print('Переменная currency_convertor = ', item_3)
+
 
 # 31. Внутри if currency_convertor сделать следующие If условия :
 
